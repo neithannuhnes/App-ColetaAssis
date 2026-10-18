@@ -2,12 +2,21 @@
 
 Protótipo web para consultar o cronograma da coleta de resíduos em Assis e visualizar uma prévia da localização do caminhão.
 
+## Prévia do aplicativo
+
+| Tela inicial | Consulta de bairro | Mapa de localização |
+| --- | --- | --- |
+| ![Tela inicial do Coleta Assis](screenshots/01-cronograma.jpg) | ![Exemplo de consulta do cronograma do bairro Vila Central](screenshots/03-consulta-bairro.jpg) | ![Mapa de Assis com status aguardando GPS](screenshots/02-localizar-caminhao.jpg) |
+
+Os dias exibidos na consulta são dados de exemplo do protótipo. A localização mostrada no mapa não representa um caminhão em tempo real.
+
 ## Estrutura
 
 - `index.html` — estrutura da página
 - `css/styles.css` — estilos e layout
 - `js/app.js` — interação, cronograma e mapa
-- `assets/` — logos e ilustrações
+- `assets/` — imagens e ilustrações do projeto
+- `screenshots/` — capturas das telas do protótipo
 
 ## Executar localmente
 
